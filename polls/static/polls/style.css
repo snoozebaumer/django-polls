@@ -1,0 +1,12 @@
+li {
+    color: white;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: #5A5757 url("images/background.jpg") no-repeat;
+}
