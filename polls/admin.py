@@ -12,6 +12,7 @@ class QuestionAdmin(admin.ModelAdmin):
     fieldsets = [
         (None, {"fields": ["question_text"]}),
         ("Date information", {"fields": ["pub_date"]}),
+        (None, {"fields": ["allow_multiple_choice"]})
     ]
     inlines = [ChoiceInline]
 
